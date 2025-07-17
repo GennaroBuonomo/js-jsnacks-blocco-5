@@ -7,5 +7,10 @@ const people = [
 // Stampa in console tutti i nomi
 let result = '';
 
-
+people.forEach((person, index) => {
+  result+= `${person.name}`;
+  if (index !== people.length -1) {
+    result += ', ';
+  }
+})
 // Risultato: 'Paolo', 'Giulia', 'Marco'

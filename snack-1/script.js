@@ -9,4 +9,6 @@ names.forEach((name, index) => {
     result += ',';
   }
 });
+
+console.log(result)
 // Risultato: 'Edoardo', 'Simone', 'Francesco'

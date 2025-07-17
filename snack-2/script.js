@@ -8,9 +8,11 @@ const people = [
 let result = '';
 
 people.forEach((person, index) => {
-  result+= `${person.name}`;
+  result+= `'${person.name}'`;
   if (index !== people.length -1) {
     result += ', ';
   }
 })
+
+console.log(result);
 // Risultato: 'Paolo', 'Giulia', 'Marco'

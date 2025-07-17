@@ -5,4 +5,7 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
+let result = '';
+
+
 // Risultato: 'Paolo', 'Giulia', 'Marco'

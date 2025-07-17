@@ -5,5 +5,8 @@ let result ='';
 
 names.forEach((name, index) => {
   result += `'${name}'`;
-})
+  if (index < names.length -1) {
+    result += ',';
+  }
+});
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
